@@ -1,0 +1,54 @@
+{
+  "health": [
+    {
+      "source": "greenhouse",
+      "board": "itd",
+      "ok": true,
+      "total": 19,
+      "related": 1,
+      "checked_at": "2026-10-22T17:18:35.098488+00:00"
+    },
+    {
+      "source": "ashby",
+      "board": "Outpost",
+      "ok": true,
+      "total": 14,
+      "related": 0,
+      "checked_at": "2026-10-22T17:18:35.891622+00:00"
+    },
+    {
+      "source": "ashby",
+      "board": "greenlight-workforce-solutions",
+      "ok": true,
+      "total": 27,
+      "related": 0,
+      "checked_at": "2026-10-22T17:18:35.904692+00:00"
+    },
+    {
+      "source": "lever",
+      "board": "concurrency",
+      "ok": true,
+      "total": 4,
+      "related": 2,
+      "checked_at": "2026-10-22T17:18:37.757763+00:00"
+    },
+    {
+      "source": "ashby",
+      "board": "comfy-org",
+      "ok": true,
+      "total": 6,
+      "related": 0,
+      "checked_at": "2026-10-22T17:18:38.962328+00:00"
+    },
+    {
+      "source": "greenhouse",
+      "board": "databricks",
+      "ok": true,
+      "total": 903,
+      "related": 22,
+      "checked_at": "2026-10-22T17:18:40.800263+00:00"
+    }
+  ],
+  "related_jobs": 25,
+  "eligible_contracts": 1
+}

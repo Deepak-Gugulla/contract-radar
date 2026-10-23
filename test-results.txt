@@ -1,0 +1,30 @@
+test_ashby_last_publish_not_original (test_radar.CollectorTests.test_ashby_last_publish_not_original) ... ok
+test_greenhouse_update_not_original (test_radar.CollectorTests.test_greenhouse_update_not_original) ... ok
+test_unlisted_ashby_ignored (test_radar.CollectorTests.test_unlisted_ashby_ignored) ... ok
+test_negative_overrides_c2c (test_radar.EligibilityTests.test_negative_overrides_c2c) ... ok
+test_permanent_not_contract (test_radar.EligibilityTests.test_permanent_not_contract) ... ok
+test_rate (test_radar.EligibilityTests.test_rate) ... ok
+test_regions (test_radar.EligibilityTests.test_regions) ... ok
+test_title_relevance (test_radar.EligibilityTests.test_title_relevance) ... ok
+test_unspecified_is_included (test_radar.EligibilityTests.test_unspecified_is_included) ... ok
+test_boundary (test_radar.FreshnessTests.test_boundary) ... ok
+test_date_only (test_radar.FreshnessTests.test_date_only) ... ok
+test_future (test_radar.FreshnessTests.test_future) ... ok
+test_sort (test_radar.FreshnessTests.test_sort) ... ok
+test_unknown_excluded_from_hour_filter (test_radar.FreshnessTests.test_unknown_excluded_from_hour_filter) ... ok
+test_conflict_retry (test_radar.StorageTests.test_conflict_retry) ... ok
+test_distinct_requisitions_remain (test_radar.StorageTests.test_distinct_requisitions_remain) ... ok
+test_private_required (test_radar.StorageTests.test_private_required) ... ok
+test_requisition_dedup (test_radar.StorageTests.test_requisition_dedup) ... ok
+test_restart_and_independent_statuses (test_radar.StorageTests.test_restart_and_independent_statuses) ... ok
+test_url_dedup (test_radar.StorageTests.test_url_dedup) ... ok
+test_login_blocks_data (test_ui.DashboardTests.test_login_blocks_data) ... 2026-10-22 13:21:32.475 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_save_view_skip_applied_and_restart (test_ui.DashboardTests.test_save_view_skip_applied_and_restart) ... 2026-10-22 13:21:35.079 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-22 13:21:35.404 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 3.134s
+
+OK

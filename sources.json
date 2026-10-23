@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "type": "lever",
+      "board": "concurrency",
+      "company": "Concurrency"
+    },
+    {
+      "type": "greenhouse",
+      "board": "itd",
+      "company": "itD Tech"
+    },
+    {
+      "type": "ashby",
+      "board": "Outpost",
+      "company": "Outpost"
+    },
+    {
+      "type": "ashby",
+      "board": "greenlight-workforce-solutions",
+      "company": "GreenLight Workforce Solutions"
+    },
+    {
+      "type": "ashby",
+      "board": "comfy-org",
+      "company": "Comfy"
+    },
+    {
+      "type": "greenhouse",
+      "board": "databricks",
+      "company": "Databricks"
+    }
+  ]
+}
