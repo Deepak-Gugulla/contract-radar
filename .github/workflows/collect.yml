@@ -1,0 +1,27 @@
+name: Collect public job boards
+on:
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: collect-jobs
+  cancel-in-progress: false
+jobs:
+  collect:
+    # Public code repo + standard runner: no billed private Actions minutes.
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect and persist privately
+        env:
+          DATA_REPO: ${{ secrets.DATA_REPO }}
+          DATA_TOKEN: ${{ secrets.DATA_TOKEN }}
+          REQUIRE_DURABLE: 'true'
+        run: python collect.py
